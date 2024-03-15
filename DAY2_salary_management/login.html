@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.html">
+        <table border="1">
+            <tr>
+                <th><label for="f_name">FIRST NAME</label></th>
+                <td><input type="text" id="f_name" required /></td>
+            </tr>
+            <tr>
+                <th><label for="l_name">LAST NAME</label></th>
+                <td><input type="text" id="l_name" required /></td>
+            </tr>
+            <tr>
+                <th><label for="dob">DOB</label></th>
+                <td><input type="date" id="dob" required /></td>
+            </tr>
+            <tr>
+                <th><label for="gender">GENDER</label></th>
+                <td>
+                    <input type="radio" id="male" name="gender" required />
+                    <label for="male">MALE</label>
+                    <input type="radio" id="female" name="gender" required />
+                    <label for="female">FEMALE</label>
+                    <input type="radio" id="other" name="gender" required />
+                    <label for="other">OTHER</label>
+                </td>
+                
+            </tr>
+            <tr>
+                <th><label for="add">ADDRESS</label></th>
+                <td><input type="text" id="add" /></td>
+            </tr>
+            <tr>
+                <th><label for="p_number">PHONE NUMBER</label></th>
+                <td><input type="number" id="p_number" required /></td>
+            </tr>
+            <tr>
+                <th><label for="email">Email</label></th>
+                <td><input type="email" id="email" required /></td>
+            </tr>
+            <tr>
+                <th><label for="u_name">USER NAME</label></th>
+                <td><input type="text" id="u_name" required /></td>
+            </tr>
+            <tr>
+                <th><label for="psw">PASSWOED</label></th>
+                <td><input type="password" id="psw" required /></td>
+            </tr>
+            <tr>
+                <th><label for="re_psw">RE-PASSWOED</label></th>
+                <td><input type="password" id="re_psw" required /></td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit" />
+            </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
