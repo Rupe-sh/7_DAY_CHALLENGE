@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Crime</title>
+</head>
+<body>
+    <header>
+        <!-- Header content -->
+        <h1>Report Crime</h1>
+    </header>
+
+    <nav>
+        <!-- Navigation menu -->
+        <a href="home.html">Home</a> |
+        <a href="reportcrime.html">Report Crime</a> |
+        <a href="viewcrimes.html">View Crimes</a> |
+        <a href="statistics.html">Statistics</a>|
+        <a href="#">Contact</a>|
+    </nav>
+
+    <main>
+        <!-- Main content area -->
+        <section id="report">
+            <h2>Report a Crime</h2>
+            <!-- Form to report a crime -->
+            <form action="#" method="post">
+                <label for="crime_type">Crime Type:</label>
+                <input type="text" id="crime_type" name="crime_type" required><br>
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" required><br>
+                <label for="description">Description:</label><br>
+                <textarea id="description" name="description" rows="4" cols="50" required></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Footer content -->
+        <p> Crime Management System </p>
+    </footer>
+</body>
+</html>
